@@ -1,0 +1,21 @@
+h3
+{
+font-size: 25px !important;
+}
+
+.btn-success:hover
+{
+    background-color: red;
+}
+
+canvas{
+    animation-name: clownface;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes clownface {
+
+    from {box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
